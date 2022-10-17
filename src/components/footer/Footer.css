@@ -10,7 +10,7 @@ footer *{
     color: #d9d9d9;
     bottom: 0px;
     width: 100%;
-    background: rgb(21, 21, 108);
+    background: rgb(49, 114, 47);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -23,10 +23,11 @@ footer *{
     display: flex;
 }
 .box h2{
-    color: #FF0000;
+    color: #861616;
 }
-#vtop-logo{
-    width: 280px;
+
+#logo{
+    width: 230px;
     height:220px;
     object-fit: cover;
 }
@@ -34,7 +35,7 @@ footer *{
     cursor: initial;
 }
 .main-content .box{
-    flex-basis: 60%;
+    flex-basis: 50%;
     padding: 10px 20px;
 }
 
@@ -50,7 +51,8 @@ footer *{
 .footer-bottom, center{
     padding: 10px;
     font-size: 0.9rem;
-    background:  #3570EC;
+    letter-spacing: 1px;
+    background:  #5ab847;
     display: flex;
     justify-content: space-around;
 }

@@ -1,7 +1,7 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './ContactPage.css'
 import Footer from '../../components/footer/Footer';
-import NavBar from '../../components/navBar/NavBar';
+// import NavBar from '../../components/navBar/NavBar';
 import CustomButton from '../../components/custombutton/CustomButton'
 import email from '../../assets/images/email.png'
 import phone from '../../assets/images/phone.png'
@@ -11,20 +11,20 @@ import address from '../../assets/images/address.png'
 
 function ContactPage() {
     
-    const [data, setData] = useState({});
+    // const [data, setData] = useState({});
 
     function contactDetails(event) {
-        const { name, value } = event.target
-        const newData = { ...data }
-        newData[name] = value;
-        setData(newData);
-        console.log(newData)
+        // const { name, value } = event.target
+        // const newData = { ...data }
+        // newData[name] = value;
+        // setData(newData);
+        // console.log(newData)
     }
 
   return (
     <div>
            <div className='navigation-bar'>
-            <NavBar currentPage="contact" />
+            {/* <NavBar currentPage="contact" /> */}
         </div>
 
         <div className='contact-us-header'>
@@ -42,8 +42,7 @@ function ContactPage() {
                     <img src={phone} alt="phone" />
                     <div className='ph-em-ad'>
                         <h2>Phone</h2>
-                        <p>+234 9037231624</p> 
-                        <p>+234 </p>
+                        <p>+234 9037231624 or +234 55535252525</p>
                     </div>
                 </div>
 
@@ -51,8 +50,8 @@ function ContactPage() {
                     <img src={email} alt="email" />
                     <div className='ph-em-ad'>
                         <h2>Email Id</h2>
-                        <p>achilihudaniel53@gmail.com</p> 
-                        <p></p>
+                        <p>achilihudaniel53@gmail.com or 
+                        <br /> ertereerereegr</p>
                     </div>
                 </div>
 
@@ -75,6 +74,7 @@ function ContactPage() {
                 <div className='fullname-mobile-email'>
                     <div className='full-name'>
                         <input className='fme-input' onChange={contactDetails} name='fullName' placeholder='Enter Full Name'/>
+                       
                     </div>
 
                     <div className='mobile-number'>

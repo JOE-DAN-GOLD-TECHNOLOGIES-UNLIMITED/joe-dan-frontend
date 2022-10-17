@@ -9,6 +9,7 @@ function Footer() {
             <div class="main-content">
 
                 <div class="logo box">
+                    
                     <div className='content'>
                         <img id='logo' src={logo} alt="logo" />
                     </div>
@@ -21,7 +22,7 @@ function Footer() {
                             <li>Home</li>
                             <li>Services</li>
                             <li>Contact us</li>
-                            <li>Faq</li>
+                            <li>FAQ</li>
                             <li>Terms and Condition</li>
                         </ul>
                     </div>
@@ -31,13 +32,12 @@ function Footer() {
                     <h2>Our Services</h2>
                     <div class="content">
                         <ul>
-                            <li>Environmental waste management</li>
-                            <li>E-ticketing agent for entertainment and sports events</li>
-                            <li>Health Status check </li>
-                            <li>Enginering services</li>
-                            <li>Website development</li>
-                            <li>Software Engineering</li>
-                            <li>Online farm marketing</li>
+                            <li>Environmental waste management.</li>
+                            <li>E-ticketing agent for entertainment and sports. </li>
+                            <li>Health Status check. </li>
+                            <li>Enginering services.</li>
+                            <li>Website development & Software Engineering.</li>
+                            <li>Online farm marketing.</li>
                         </ul>          
                     </div>
                 </div>
@@ -46,12 +46,21 @@ function Footer() {
                     <h2>Contact Us</h2>
                     <div class="content">                  
                         <ul>
-                            <li>Phone 1: +234 9037231624</li>
-                            <li>Phone 2: +234 </li>
+                            <li>
+                                <h3>Phone :</h3>
+                                <p>+234 9037231624 or +234 </p>
+                            </li> 
 
-                            <li>E-mail: achilihudaniel53@gmail</li>
-                            <li>E-mail: </li>
-                            <li id='address'>Address: Abuja, Nigeria</li>
+                            <li>
+                                <h3>E-mail: </h3>
+                                <p> achilihudaniel53@gmail or  </p>
+                            </li>
+                            
+
+                            <li>
+                                <h3>Address: </h3>
+                                <p>Abuja, Nigeria </p> 
+                            </li>
                         </ul>              
                     </div>
                 </div>

@@ -1,14 +1,114 @@
 import React from 'react'
+import './HomePage.css'
 import NavBar from '../../components/navBar/NavBar';
 import Footer from '../../components/footer/Footer';
 import CustomButton from '../../components/custombutton/CustomButton';
+import target from "../../assets/images/target.png";
+import eye from "../../assets/images/eye.png";
+import Daniel from "../../assets/images/Daniel.JPG";
+import founders from './founders.json'
 
 function HomePage() {
   return (
-    <div>HomePage
-        <NavBar/>
-        <Footer/>
-        <CustomButton/>
+    <div>
+      <div>
+        <NavBar/> 
+      </div>
+        
+      <div className='about-us'>
+        <div className='about-us-header'>
+          <h2>Our Mission & Vision</h2>
+        </div>
+
+        <div className='about-us-page'>
+
+          <div className='mission-vision'>
+            <div className='world-of-JDG'>
+              <h3>J-D GOLD TECH</h3>
+              <p>World of JDG</p>
+            </div>
+            
+            <div className='our-mission'>
+              <img src={target} alt="" />
+              <p>Our Mission</p>
+            </div>
+
+            <div className='our-vision'>
+              <img src={eye} alt="" />
+              <p>Our Vision</p>
+            </div>
+
+          </div>
+
+          <div className='mission'>
+            <h1> Our Mission</h1>
+            <p> To improve the technology world by impacting positively in the lives of many. 
+            <br /></p>
+          </div>
+
+          <div className='our-awesome-team'>
+            <div className='our-awesome-team-header'>
+              <h1>Our Awesome Team</h1>
+            </div>
+
+            <p> PRESENTING THE MINDS BEHIND JOE-DAN GOLD TECHNOLOGY UNLIMITED. A UNIFIED TEAM OF EXPERTS WHO ARE PASSIONATELY DRIVEN BY THE CONCEPT OF SMART SOLUTIONS, BRINGING NEW TECHNOLOGICAL IDEAS FOR THE WORLD AT LARGE. THEY ENSURE THAT COMFORT AND SATISFACTION GO HAND-IN-HAND.</p>
+          </div>
+
+          <div className='founder'>
+            <div className='founder-details-box'>
+              <div className='founder-image'>
+                <img src={Daniel} alt="" />
+              </div>
+              <h3>JOSEPH UKAGA</h3>
+              <p>FOUNDER</p>
+            </div>
+
+            <div className='founder-details-box'>
+              <div className='founder-image'>
+                <img src={Daniel} alt="" />
+              </div>
+              <h3>ACHILIHU DANIEL</h3>
+              <p>CO-FOUNDER</p>
+            </div>
+
+          
+
+            <div className='founder-voice'>
+              <h1>Founders Voice</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea minus itaque nostrum obcaecati vero in numquam quaerat tempore, rerum voluptates doloribus quasi molestias! Consequuntur illo quidem eos velit, quisquam ea.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eos, earum temporibus dignissimos tempora qui suscipit praesentium hic debitis iure ducimus. Exercitationem, dicta non quos nihil laborum nulla quo nemo.
+              </p>
+            </div>
+
+          </div>
+
+          <div className='team-details-container'>
+            {
+              founders.map((founder, index) => (
+                <React.Fragment key={index}>
+                  <div className='team-details-box'>
+                    <div className='team-details-image'>
+                      <img src={Daniel} alt={founder.name} />
+                    </div>
+                    <p className='team-name'>{founder.name}</p>
+                    <p className="team-position">{founder.position}</p>
+              
+                    <CustomButton content="View Details" />
+                    
+                  </div>
+              
+                </React.Fragment>
+              ))
+            }
+          </div>
+        </div>
+      </div>
+
+      <div className='footer'>
+        {/* <Footer/> */}
+      </div>
+
     </div>
   )
 }

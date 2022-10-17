@@ -15,7 +15,7 @@
 }
 
 .contact-us-header h1{
-    color: #1E1EB2;
+    color: green;
     font-size: 3rem;
 }
 
@@ -38,7 +38,7 @@
 
 .phone-id, .email-id, .address-id {
     display: flex;
-    align-items: center;
+    align-items:center;
     gap: 15px;
 }
 
@@ -46,12 +46,10 @@
   margin-bottom: 0;
 }
 
-#address-cp{
-    margin-top: 15%;
-}
-
 .ph-em-ad p{
     margin-top: 0;
+    color: blue;
+    letter-spacing: 1px;
 }
 
 
@@ -82,15 +80,17 @@
     margin: 5% 0 30px;
 }
 
-.fme-input{
+.fullname-mobile-email input{
     padding: 15px;
     font-size: 1.5em;
     letter-spacing: 2px;
     border-radius: 10px;
-    background-color: #d9d9d971;
-    width:26vw;
+    background-color: #d9d9d971; 
+    width: 100%;
     outline: none;
     border: none;
+
+    
 }
 
 .subject input{
@@ -147,6 +147,12 @@
         margin: 0 auto;
     }
 
+    .contact-page-form{
+        width: 90%;
+        margin: 0 auto;
+
+    }
+    
     .fullname-mobile-email{
         display: block;
         margin: 5% 0 0px;
@@ -154,11 +160,19 @@
 
     .fullname-mobile-email input{
         margin-bottom: 30px;
-        width: 100%;
+        width: 90%;
+
     }
 
     .subject input{
         margin-bottom: 30px;
+        width: 90%;
+    }
+
+    .message textarea{
+        margin-bottom: 30px;
+        width: 90%;
+       
     }
     
 }
