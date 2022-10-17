@@ -40,14 +40,14 @@ export default function NavBar({ currentPage }) {
           <marquee behavior="100" direction="right">
             <div className='m-phone'>
               <img src={phone} alt="phone" style={{width:'30px', height:'25px'}} />
-              <p>+234 09037231624 or +234 t545455t45  </p>
+              <p>+234 09037231624 or  +234 8115636432 </p>
             </div> 
           </marquee>
 
           <marquee behavior="" direction="left">
             <div className='m-email'>
               <img src={email} alt="phone" style={{width:'30px', height:'25px'}}/>
-              <p> achilihudaniel53@gmail or aewferfersgfgsergfes</p> 
+              <p> achilihudaniel53@gmail or Ukagajosephchibuikem@gmail.com</p> 
             </div>
           </marquee>
 

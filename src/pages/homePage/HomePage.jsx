@@ -6,6 +6,7 @@ import CustomButton from '../../components/custombutton/CustomButton';
 import target from "../../assets/images/target.png";
 import eye from "../../assets/images/eye.png";
 import Daniel from "../../assets/images/Daniel.JPG";
+import Joseph from "../../assets/images/Joseph.JPG";
 import founders from './founders.json'
 
 function HomePage() {
@@ -57,9 +58,9 @@ function HomePage() {
           <div className='founder'>
             <div className='founder-details-box'>
               <div className='founder-image'>
-                <img src={Daniel} alt="" />
+                <img src={Joseph} alt="" />
               </div>
-              <h3>JOSEPH UKAGA</h3>
+              <h3>UKAGA JOSEPH C.</h3>
               <p>FOUNDER</p>
             </div>
 
@@ -67,7 +68,7 @@ function HomePage() {
               <div className='founder-image'>
                 <img src={Daniel} alt="" />
               </div>
-              <h3>ACHILIHU DANIEL</h3>
+              <h3>ACHILIHU DANIEL U.</h3>
               <p>CO-FOUNDER</p>
             </div>
 

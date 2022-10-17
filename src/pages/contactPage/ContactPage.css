@@ -43,12 +43,14 @@
 }
 
 .ph-em-ad h2{
+    margin-top: 50px;
   margin-bottom: 0;
 }
 
 .ph-em-ad p{
     margin-top: 0;
     color: blue;
+    font-size: 1.3rem;
     letter-spacing: 1px;
 }
 

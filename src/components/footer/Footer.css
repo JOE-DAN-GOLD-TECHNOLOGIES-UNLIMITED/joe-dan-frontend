@@ -17,6 +17,11 @@ footer *{
 .content ul,li {
     list-style-type: none;
     cursor: pointer;
+   
+}
+
+.content p{
+    line-height: 1.8rem;
 }
 
 .main-content{
@@ -24,6 +29,10 @@ footer *{
 }
 .box h2{
     color: #861616;
+}
+
+.box h3{
+    color: rgb(43, 11, 11);
 }
 
 #logo{

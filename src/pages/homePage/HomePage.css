@@ -1,5 +1,4 @@
 .about-us{
-    
     margin-top: 150px;
 }
 
@@ -26,6 +25,7 @@
 .mission-vision img{
     width: 100px;
 }
+
 .mission-vision p{
     margin-top: 0;
     text-align: center;
@@ -112,7 +112,7 @@
     border-radius: 30px;
 
 }
-.founder-details-box p{
+.founder-details-box h1, .team-name{
    color: blue;
 }
 

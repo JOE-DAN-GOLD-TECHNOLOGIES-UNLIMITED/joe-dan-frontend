@@ -48,18 +48,18 @@ function Footer() {
                         <ul>
                             <li>
                                 <h3>Phone :</h3>
-                                <p>+234 9037231624 or +234 </p>
+                                <p>+234 9037231624  or <br /> +234 8115636432</p>
                             </li> 
 
                             <li>
                                 <h3>E-mail: </h3>
-                                <p> achilihudaniel53@gmail or  </p>
+                                <p> achilihudaniel53@gmail or Ukagajosephchibuikem@gmail.com </p>
                             </li>
                             
 
                             <li>
                                 <h3>Address: </h3>
-                                <p>Abuja, Nigeria </p> 
+                                <p> Federal Capital Territory ,  Abuja ,  Nigeria </p> 
                             </li>
                         </ul>              
                     </div>

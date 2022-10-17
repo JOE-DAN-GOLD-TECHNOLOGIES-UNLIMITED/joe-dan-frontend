@@ -42,7 +42,7 @@ function ContactPage() {
                     <img src={phone} alt="phone" />
                     <div className='ph-em-ad'>
                         <h2>Phone</h2>
-                        <p>+234 9037231624 or +234 55535252525</p>
+                        <p>+234 9037231624 or <br /> +234 8115636432</p>
                     </div>
                 </div>
 
@@ -51,7 +51,7 @@ function ContactPage() {
                     <div className='ph-em-ad'>
                         <h2>Email Id</h2>
                         <p>achilihudaniel53@gmail.com or 
-                        <br /> ertereerereegr</p>
+                        <br /> Ukagajosephchibuikem@gmail.com</p>
                     </div>
                 </div>
 
@@ -59,7 +59,8 @@ function ContactPage() {
                     <img src={address} alt="address"/>
                     <div className='ph-em-ad' id='address-cp'>
                         <h2>Address</h2>
-                        <p> Abuja, Nigeria</p> 
+                        <p> Federal Capital Territory,
+                            <br /> Abuja, Nigeria.</p> 
                     </div>
                 </div>
 
