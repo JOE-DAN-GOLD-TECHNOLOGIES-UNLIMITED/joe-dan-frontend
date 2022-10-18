@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import "./NavBar.css";
 import { MdCancel} from "react-icons/md";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 import menu from "../../assets/images/menu.png";
 import email from '../../assets/images/email.png'
@@ -37,19 +37,19 @@ export default function NavBar({ currentPage }) {
       <nav className={navbar ? 'nav-bar active' : 'nav-bar'}>
 
         <div className='contact-details-container'>
-          <marquee behavior="100" direction="right">
+          {/* <marquee behavior="100" direction="right"> */}
             <div className='m-phone'>
               <img src={phone} alt="phone" style={{width:'30px', height:'25px'}} />
               <p>+234 09037231624 or  +234 8115636432 </p>
             </div> 
-          </marquee>
+          {/* </marquee> */}
 
-          <marquee behavior="" direction="left">
+          {/* <marquee behavior="" direction="left"> */}
             <div className='m-email'>
               <img src={email} alt="phone" style={{width:'30px', height:'25px'}}/>
               <p> achilihudaniel53@gmail or Ukagajosephchibuikem@gmail.com</p> 
             </div>
-          </marquee>
+          {/* </marquee> */}
 
         </div>
        
@@ -57,9 +57,9 @@ export default function NavBar({ currentPage }) {
 
           <div className='navigation-bar-content'>
             <div className='navigation-logo'>
-              {/* <Link to='/'> */}
+              <Link to='/'>
                 <img src={logo} alt="logo" className='logo' />
-              {/* </Link> */}
+              </Link>
             </div>
 
             <div className='navigation-items'>
@@ -78,7 +78,7 @@ export default function NavBar({ currentPage }) {
               <img src={menu} alt="menu" className='menu' onClick={shower} />
               <div className={!show ? 'links show' : 'links'}>
                   <p onClick={shower} style = {{cursor: 'pointer'}} className = 'exit'><MdCancel size = {55}/></p> 
-                {/* <Link to='/' className='link home-link' style={page("home")} >Home</Link>  */}
+                <Link to='/' className='link home-link' style={page("home")} >Home</Link> 
                 
                 <p className='link' style={page("Home")}>Home</p> 
                 {/* <Link to="/services" className='link' style={page("services")}>Product</Link>  */}
