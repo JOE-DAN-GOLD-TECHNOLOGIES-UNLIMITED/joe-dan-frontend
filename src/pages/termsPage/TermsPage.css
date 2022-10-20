@@ -19,3 +19,12 @@
     padding: 2px 2%;
     margin-bottom: 50px;
 }
+
+
+@media screen and (max-width:1000px) {
+    .terms-header{
+        font-size: 1.5rem;
+        align-items: center;
+    }
+        
+}
