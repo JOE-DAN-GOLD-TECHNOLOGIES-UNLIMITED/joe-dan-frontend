@@ -1,15 +1,56 @@
-.about-us{
-    margin-top: 150px;
+.home-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 7%;
+
+}
+.home-info h2{
+    font-size: 2.3rem;
+}
+
+.home-info p{
+    line-height: 2.0rem;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-info span{
+    color: blue;
+}
+
+.home-btn {
+    margin-top: 0;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.home-btn button{
+    margin-top: 0;
+    border-radius: 30px;
+    width: 150px;
+    font-size: 1.2rem;
+}
+
+
+.home-pic img{
+    display:flow-root;
 }
 
 .about-us-header{
     font-size: 2rem;
-    background-color: #d9d9d971;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 31px 0px #cacacc52;
     height: 150px;
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-    color: green;
+    color: blue;
 }
 
 .about-us-page{
@@ -33,19 +74,19 @@
 }
 
 
-.world-of-JDG{
+.our-mission{
     background-color:#D9D9D9;
     padding: 10px 5%;
     height: 120px;
 }
 
-
-.our-mission{
+.world-of-JDG{
     background-color: #FFFFFF;
-    box-shadow: 0px 4px 22px 0px #00000054;
+    box-shadow: 0px 4px 31px 0px #cacacc52;
     padding: 10px 5%;
     height: 120px;
 }
+
 
 .our-vision{
     background-color:  #D9D9D9;
@@ -54,8 +95,7 @@
 }
 
 .mission{
-    background-color:#FFFFFF ;
-    box-shadow: 0px 4px 31px 0px #00000052;
+    box-shadow: 0px 4px 31px 0px #cacacc52;
     padding: 2px 2%;
     margin-bottom: 50px;
     
@@ -66,9 +106,12 @@
     margin-bottom: 50px;
 }
 
-.mission p{
-    margin-bottom: 50px;
+.mission li{
+    margin-bottom: 20px;
+    list-style-type:disc;
 }
+
+
 
 .our-awesome-team{
     margin-top: 8%;
@@ -86,7 +129,7 @@
     align-items: center;
     gap: 20px;
     margin-bottom: 30px;
-    border-bottom: 4px solid whitesmoke;
+    border-bottom: 4px solid rgb(255, 254, 254);
 
 }
 
@@ -101,7 +144,7 @@
 }
 
 .founder-image{
-    background: #31412a;
+    background: #050611;
     box-shadow: 0px 3.43px 3.43px 0px #0000003D;
     border-radius: 30px;
     padding: 5px 3%;
@@ -136,7 +179,7 @@
     background-color:  #D9D9D966;
     border-radius: 30px;
     text-align: center;
-    padding: 20px 3.0%;
+    padding: 20px 3.5%;
     margin-bottom: 20px;
 }
 
@@ -148,6 +191,40 @@
 
 @media screen and (max-width:1000px) {
     
+    .home-page{
+        margin: 0;
+        padding: 0;
+    }
+
+    .home-info {
+        display: grid;
+        padding: 4%;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 120px;
+        background-image: url(../../assets/images/homeP.png);
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.212);
+        display: table;
+        background-attachment: fixed;  
+    }
+    .home-info h2{
+        font-size: 2.3rem;
+    }
+    
+    .home-info p{
+        line-height: 2.0rem;
+        margin-bottom: 0;
+        font-size: 20px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .home-pic img{
+        display:none;
+    }
+
+    .about-us-page{
+        padding: 0;
+    }
     .mission-vision{
         display: flex;
         justify-content: space-around;
@@ -165,14 +242,14 @@
         box-shadow: 0px 4px 22px 0px #00000054;
         padding: 10px 5%;
         height: 120px; 
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
     
     .our-vision{
         background-color:  #D9D9D9;
         padding: 10px 5%;
         height: 120px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
       
     }
     
@@ -181,29 +258,43 @@
         align-items: center;
         gap: 20px;
         margin-bottom: 30px;
-        border-bottom: 4px solid whitesmoke;
-    
-        
+        border-bottom: 4px solid whitesmoke;      
     }
 
     .founder-details-box{
-        width: 300px;
-
-        /* margin: 0 auto; */
+        width: 350px;
+        margin: 0 auto;
         background-color: #D9D9D966;
-        padding: 20px 4%;
         margin-bottom: 20px;
     }
+    
+    .founder-image{
+        width:80%;
+        margin: 0 auto;
+    }
 
+    .founder-voice {
+        width: 88%;
+        margin: 0 auto;
+        font-size: 1.2rem;
+        padding: 20px 2%;
+        line-height: 2.5rem;
+    }
+    
+    .founder-voice h1 {
+      text-align: center;
+    }
+    
     .team-details-box{
-        width: 300px;
-
+        width: 320px;
+        margin: 0 auto;
         background-color:  #D9D9D966;
         border-radius: 30px;
         text-align: center;
-        padding: 20px 3.0%;
         margin-bottom: 20px;
     }
-
     
 }
+
+
+

@@ -1,50 +1,84 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from "react-router-dom";
 import logo from '../../assets/images/logo.png'
 
 function Footer() {
   return (
     <div className='footer'>
         <footer className='resize-max'>        
-            <div class="main-content">
+            <div className="main-content">
 
-                <div class="logo box">
+                <div className="logo box">
                     
                     <div className='content'>
                         <img id='logo' src={logo} alt="logo" />
                     </div>
                 </div>
 
-                <div class="quick-links box">
+                <div className="quick-links box">
                     <h2>Quick Links</h2>
-                    <div class="content">
+                    <div className="content">
                         <ul>
-                            <li>Home</li>
-                            <li>Services</li>
-                            <li>Contact us</li>
-                            <li>FAQ</li>
-                            <li>Terms and Condition</li>
+                            <Link to='/'>
+                                <li>Home</li>
+                            </Link>
+
+                            <Link to='/ourservices' >
+                                <li>Services</li>
+                            </Link>
+                            
+                            <Link to='/contactus'>
+                                <li>Contact us</li>
+                            </Link>
+                            
+                            <Link to='/faq'> 
+                                <li>FAQ</li>
+                            </Link>
+                            
+                            <Link to='/termsandconditions' >  
+                                <li>Terms and Condition</li>
+                            </Link>
+
                         </ul>
                     </div>
                 </div>
 
-                <div class="our-product box">
+                <div className="our-product box">
                     <h2>Our Services</h2>
-                    <div class="content">
+                    <div className="content">
                         <ul>
-                            <li>Environmental waste management.</li>
-                            <li>E-ticketing agent for entertainment and sports. </li>
-                            <li>Health Status check. </li>
-                            <li>Enginering services.</li>
-                            <li>Website development & Software Engineering.</li>
-                            <li>Online farm marketing.</li>
+                            <Link to ='/ourservices'>
+                                <li>Environmental waste management.</li>                         
+                            </Link>
+
+                            <Link to ='/ourservices'>
+                                <li>E-ticketing agent for entertainment and sports. </li>
+                            </Link>
+
+                            <Link to ='/ourservices'>
+                                <li>Health Status check. </li>
+                            </Link>
+    
+                            <Link to ='/ourservices'>
+                                <li>Enginering services.</li>
+                            </Link>
+        
+                            <Link to ='/ourservices'>
+                                <li>Website development & Software Engineering.</li>
+                            </Link>
+            
+                            <Link to ='/ourservices'>
+                                <li>Online farm marketing.</li>
+                            </Link>
+
                         </ul>          
                     </div>
                 </div>
 
-                <div class="contact-us box">
+                <div className="contact-us box">
                     <h2>Contact Us</h2>
-                    <div class="content">                  
+                    <div className="content">                  
                         <ul>
                             <li>
                                 <h3>Phone :</h3>
@@ -53,7 +87,7 @@ function Footer() {
 
                             <li>
                                 <h3>E-mail: </h3>
-                                <p> achilihudaniel53@gmail or Ukagajosephchibuikem@gmail.com </p>
+                                <p> achilihudaniel53@gmail.com  or  Ukagajosephchibuikem@gmail.com </p>
                             </li>
                             
 
@@ -68,7 +102,7 @@ function Footer() {
             </div>
 
 
-            <div class="fotter-bottom">
+            <div className="fotter-bottom">
                 <center>
                     <div className="footer-left-bottom">
                         <p>Copyright © 2021-2022 JOEDAN GOLD TECHNOLOGIES UNLIMITED. All Rights Reserved.</p>

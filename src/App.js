@@ -11,23 +11,16 @@ import TermsPage from "./pages/termsPage/TermsPage";
 function App() {
   return (
     <div className="jdgt">
-{/* 
-        <Routes>
-          <Route exact path='/' component={<HomePage />}/>
-          <Route exact path='/contactus' component={<ContactPage />}/>
-          <Route exact path='/termsandcondition' component={<TermsPage />}/>
-          <Route exact path='/ourservices' component={<ServicesPage />}/>
-          <Route exact path='/faq' component={<FaqPage />}/>
 
+        <Routes >
+          <Route exact path='/' element={<HomePage />} />
+          <Route exact path='/contactus' element={<ContactPage />} />
+          <Route exact path='/termsandconditions' element={<TermsPage />}/>
+          <Route exact path='/ourservices' element={<ServicesPage  />}/>
+          <Route exact path='/faq' element={<FaqPage />}/>
           <Route exact path="*" element={<h1>404</h1>} />
+        </Routes>
 
-        </Routes> */}
-
-      <HomePage/>
-      <ContactPage/>
-      <ServicesPage />
-      <FaqPage />
-      <TermsPage />
 
     </div>
   );

@@ -4,8 +4,9 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgba(69, 239, 18, 0.786);
-    color: blue;
+    background-color: rgba(18, 114, 239, 0.786);
+    color: rgb(6, 6, 10);
+    color: white;
 }
 .m-phone, .m-email {
     display: flex;
@@ -17,7 +18,7 @@
     width: 100%;
     height: 150px;
     color: white;
-    background-color: rgb(43, 117, 14);
+    background-color: rgb(10, 23, 82);
     position: fixed;
     top: 0;
     left: 0;
@@ -35,26 +36,17 @@
 
 
 .navigation-logo{
-    height: 100px;
-    width: 100px;
-    background: linear-gradient(
-        #12ae36,
-        #7cd740
-    );
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    font-size: 50px;
-    color: #ffffff;
+    display: flex;
 }
+
 .navigation-logo:before,
 .navigation-logo:after{
     content: "";
     position: absolute;
     height: 100%;
     width: 150px;
-    background-color: #86b983;
-    border-radius: 50%;
+    background-color: #abca1f;
+    border-radius:50%;
     z-index: -1;
     opacity: 0.7;
 }
@@ -71,10 +63,9 @@
     }
 }
 
-.logo{
-    width: 100px;
-    height: 100px;
-    background-color: none;
+.navigation-logo img{
+    width: 130px;
+    height: 130px;
     object-fit: cover;
 }
 
@@ -85,10 +76,19 @@
     display: flex;
     justify-content: space-evenly;
     width: 60%;
+    font-size: 1.2rem;
 }
 
-.navigation-items{
-    font-size: 1.2rem;
+.navigation-items p{
+    color: white;
+}
+
+.navigation-items p:hover{
+    color: red;
+}
+
+.navigation-items a{
+    text-decoration: none;
 }
 
 .nav-bar.active{
@@ -99,6 +99,7 @@
 .nav-menu{
     display: none;
 }
+
 
 @media screen and (max-width: 1000px){
     .j-d-navbar{
@@ -112,7 +113,7 @@
     .nav-menu {
         display: flex;
         justify-content: flex-end;
-        margin-top: -50px;
+        margin-top: -80px;
         padding: 0 5%; 
     }
     .show{
@@ -120,23 +121,28 @@
         background-color: white;       
     }
 
+    .nav-menu a{
+        text-decoration: none;
+    }
+
     .links{
         background: #464946;
-        top: -120px;
+        top: -150px;
         position: relative;
         width: 100%;
         z-index: 3;
-        padding: 20px;
+        padding-right: 200px;
         transition: .5s ease-in-out;
     }
 
-    .link{
-        padding: 20px;
-        width: 200px;
+    .link p{
+        padding: 30px;
+        font-size: 20px;
+        color: white;
     }
-    
+
     .exit{
-        padding: 0px 4%;
+        padding: 10% 3%;
         display: flex;
         justify-content: flex-end;
     }

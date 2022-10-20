@@ -1,7 +1,7 @@
 import React from 'react'
 import './ContactPage.css'
 import Footer from '../../components/footer/Footer';
-// import NavBar from '../../components/navBar/NavBar';
+import NavBar from '../../components/navBar/NavBar';
 import CustomButton from '../../components/custombutton/CustomButton'
 import email from '../../assets/images/email.png'
 import phone from '../../assets/images/phone.png'
@@ -21,17 +21,17 @@ function ContactPage() {
         // console.log(newData)
     }
 
-  return (
-    <div>
-           <div className='navigation-bar'>
-            {/* <NavBar currentPage="contact" /> */}
-        </div>
-
-        <div className='contact-us-header'>
-            <h1>Contact Us</h1>
-        </div>
+    return (
 
         <div className='contact-page' >
+
+            <div>
+                <NavBar />
+            </div>
+
+            <div className='contact-us-header'>
+                <h2>Contact Us</h2>
+            </div>
 
             <div className='know-us-better'>
                 <h1>Would you like to get to know us better ?</h1>
@@ -74,8 +74,7 @@ function ContactPage() {
             <form action="" className='contact-page-form'>
                 <div className='fullname-mobile-email'>
                     <div className='full-name'>
-                        <input className='fme-input' onChange={contactDetails} name='fullName' placeholder='Enter Full Name'/>
-                       
+                        <input className='fme-input' onChange={contactDetails} name='fullName' placeholder='Enter Full Name'/> 
                     </div>
 
                     <div className='mobile-number'>
@@ -100,11 +99,14 @@ function ContactPage() {
             <div className='send-message'>
                 <CustomButton id="sm-button" type={'submit'} content='Send Message' style={{ width: '350px', height: '70px', borderRadius: '70px'}} />
             </div>
+
+            <div>
+                <Footer />
+            </div>
+
         </div>
 
-        <Footer />
-    </div>
-  )
+    )
 }
 
 export default ContactPage

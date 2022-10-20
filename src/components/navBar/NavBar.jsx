@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import "./NavBar.css";
 import { MdCancel} from "react-icons/md";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 import menu from "../../assets/images/menu.png";
 import email from '../../assets/images/email.png'
@@ -57,17 +57,33 @@ export default function NavBar({ currentPage }) {
 
           <div className='navigation-bar-content'>
             <div className='navigation-logo'>
-              {/* <Link to='/'> */}
-                <img src={logo} alt="logo" className='logo' />
-              {/* </Link> */}
+              <Link to='/' >
+                <img src={logo} alt="phone"/>
+              </Link>     
             </div>
 
             <div className='navigation-items'>
-              <p>Home</p>
-              <p>Services</p>
-              <p>Contact Us</p>
-              <p>FAQ</p>
-              <p>Terms and Conditions</p>
+              <Link to='/'>
+                <p>Home</p>
+
+              </Link>
+              
+              <Link to='/ourservices' >
+                <p>Services</p>
+              </Link>
+
+              <Link to='/contactus'>
+                <p>Contact Us</p>
+              </Link>
+              
+              <Link to='/faq'> 
+                <p>FAQ</p>
+              </Link>
+
+              <Link to='/termsandconditions' >  
+                <p>Terms and Conditions</p>
+              </Link>
+
             </div>
 
           </div>
@@ -78,23 +94,15 @@ export default function NavBar({ currentPage }) {
               <img src={menu} alt="menu" className='menu' onClick={shower} />
               <div className={!show ? 'links show' : 'links'}>
                   <p onClick={shower} style = {{cursor: 'pointer'}} className = 'exit'><MdCancel size = {55}/></p> 
-                {/* <Link to='/' className='link home-link' style={page("home")} >Home</Link>  */}
                 
-                <p className='link' style={page("Home")}>Home</p> 
-                {/* <Link to="/services" className='link' style={page("services")}>Product</Link>  */}
-                {/* <Link to="/contact" className='link' style={page("contact")}>Contact Us</Link>  */}
+                  <p>
 
-                <p className='link' style={page("Services")}>Services</p>
-                {/* <Link to='/term-and-condition' className='terms-and-condition'>Terms and Condition</Link>  */}
-                
-                <p className='link' style={page("Contact Us")}>Contact Us</p> 
-                {/* <Link to='/term-and-condition' className='terms-and-condition'>Terms and Condition</Link> */}
-                
-                <p className='link' style={page("faq")}>FAQ</p> 
-                {/* <Link to='/term-and-condition' className='terms-and-condition'>Terms and Condition</Link> */}
-                
-                <p className='link' style={page("Terms and Conditions")}>Terms and Conditions</p>
-                {/* <Link to='/term-and-condition' className='terms-and-condition'>Terms and Condition</Link>  */}
+                  <Link to='/' className='link' style={page("home")} > <p>Home</p></Link> 
+                  <Link to='/ourservices' className='link' style={page("home")} > <p>Services</p></Link> 
+                  <Link to='/contactus' className='link' style={page("home")} > <p>Contact</p></Link> 
+                  <Link to='/faq' className='link' style={page("home")} > <p>FAQ</p></Link> 
+                  <Link to='/termsandconditions' className='link' style={page("home")} > <p>Terms and Conditions</p></Link> 
+                  </p>
                 
               </div>
             </div>

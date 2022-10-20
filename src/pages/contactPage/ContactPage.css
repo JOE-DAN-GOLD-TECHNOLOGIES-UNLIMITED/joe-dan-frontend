@@ -3,20 +3,18 @@
     font-family: 'Oswald', sans-serif;
 }
 .contact-page{
-    width: 100%;
-    margin: 3% auto;
+    margin-top: 180px;
 }
 
 .contact-us-header{
-    background-color: #d9d9d971;
+    font-size: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 31px 0px #cacacc52;
     height: 150px;
     display: flex;
     justify-content: center;
-}
-
-.contact-us-header h1{
-    color: green;
-    font-size: 3rem;
+    margin-bottom: 50px;
+    color: blue;
 }
 
 .know-us-better h1{
@@ -74,6 +72,7 @@
 .contact-page-form{
     width: 85%;
     margin: 0 auto;
+
 }
 
 .fullname-mobile-email{
@@ -91,6 +90,9 @@
     width: 100%;
     outline: none;
     border: none;
+    /* background-color: #ffffff; */
+    /* box-shadow: 0px 4px 31px 0px #00000052; */
+
 
     
 }
@@ -103,6 +105,8 @@
     font-size: 1.5em;
     letter-spacing: 2px;
     background-color: #d9d9d971;
+    /* background-color: #ffffff; */
+    /* box-shadow: 0px 4px 31px 0px #00000052; */
     outline: none;
     border: none;
 }
@@ -116,6 +120,8 @@
     font-size: 1.5em;
     letter-spacing: 2px;
     background-color: #d9d9d971;
+    /* background-color: #ffffff; */
+    /* box-shadow: 0px 4px 31px 0px #00000052; */
     outline: none;
     border: none;
 }
