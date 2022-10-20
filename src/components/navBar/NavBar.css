@@ -87,6 +87,10 @@
     width: 60%;
 }
 
+.navigation-items{
+    font-size: 1.2rem;
+}
+
 .nav-bar.active{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     transition: ease-in .5s;

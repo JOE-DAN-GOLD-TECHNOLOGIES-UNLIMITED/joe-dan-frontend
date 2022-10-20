@@ -1,6 +1,6 @@
 import React from 'react'
 import './HomePage.css'
-// import NavBar from '../../components/navBar/NavBar';
+import NavBar from '../../components/navBar/NavBar';
 import Footer from '../../components/footer/Footer';
 import CustomButton from '../../components/custombutton/CustomButton';
 import target from "../../assets/images/target.png";
@@ -13,7 +13,7 @@ function HomePage() {
   return (
     <div>
       <div>
-        {/* <NavBar/>  */}
+        <NavBar/> 
       </div>
         
       <div className='about-us'>

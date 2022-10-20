@@ -3,7 +3,7 @@ import "./CustomButton.css";
 function Button({ content, ...otherProps }) {
     return (
         
-        <div class="container">
+        <div className="container">
             <button {...otherProps} className="special-button">{content}</button>
         </div>
     );
