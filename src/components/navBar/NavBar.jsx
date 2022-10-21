@@ -7,6 +7,15 @@ import menu from "../../assets/images/menu.png";
 import email from '../../assets/images/email.png'
 import phone from '../../assets/images/phone.png'
 
+
+
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+
+
+
+// To toggle and make navbar show menu
+
 export default function NavBar({ currentPage }) {
   const [navbar, setNavbar] = useState(false);
   const [show, setShow] = useState(false)
@@ -18,17 +27,36 @@ export default function NavBar({ currentPage }) {
     }
   };
   window.addEventListener('scroll', changeNav)
-
+  
   function page(page) {
     if (page === currentPage) return {
-      borderBottom: " none"
+      borderBottom: " none",
+      
     };
     return {};
   }
-
+  
   const shower = () =>{
     setShow(!show);
   }
+  
+
+  // To make the scroll bar return to top of page
+
+  function ScrollToTop() {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth', 
+      });
+    }, [pathname]);
+  
+    return null;
+  }
+  
 
 
   return (
@@ -63,24 +91,24 @@ export default function NavBar({ currentPage }) {
             </div>
 
             <div className='navigation-items'>
-              <Link to='/'>
+              <Link to='/' onClick={ScrollToTop()} pathname='/'>
                 <p>Home</p>
 
               </Link>
               
-              <Link to='/ourservices' >
+              <Link to='/ourservices' onClick={ScrollToTop()} pathname='/ourservices' >
                 <p>Services</p>
               </Link>
 
-              <Link to='/contactus'>
+              <Link to='/contactus' onClick={ScrollToTop()} pathname='/contactus'>
                 <p>Contact Us</p>
               </Link>
               
-              <Link to='/faq'> 
+              <Link to='/faq' onClick={ScrollToTop()} pathname='/faq' > 
                 <p>FAQ</p>
               </Link>
 
-              <Link to='/termsandconditions' >  
+              <Link to='/termsandconditions' onClick={ScrollToTop()} pathname='/termsandconditions' >  
                 <p>Terms and Conditions</p>
               </Link>
 

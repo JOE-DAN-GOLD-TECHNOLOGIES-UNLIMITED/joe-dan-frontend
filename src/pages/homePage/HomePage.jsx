@@ -22,7 +22,7 @@ function HomePage() {
     
       <div className="home-info">
         <div className='home-details'>
-          <h2>Encourage innovation by providing various <span> Technology Solutions </span> </h2> 
+          <h1>We Encourage Innovation by Rendering  <br /><span> Technological Services </span> </h1> 
 
           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam doloribus magni minima ab inventore repellat at blanditiis. Tempore nesciunt iusto eius ex, delectus corporis ipsa possimus accusamus sed laudantium? </p>
 
@@ -81,7 +81,8 @@ function HomePage() {
             <h1>Our Awesome Team</h1>
           </div>
 
-          <p> PRESENTING THE MINDS BEHIND JOE-DAN GOLD TECHNOLOGY UNLIMITED. A UNIFIED TEAM OF EXPERTS WHO ARE PASSIONATELY DRIVEN BY THE CONCEPT OF SMART SOLUTIONS, BRINGING NEW TECHNOLOGICAL IDEAS FOR THE WORLD AT LARGE. THEY ENSURE THAT COMFORT AND SATISFACTION GO HAND-IN-HAND.</p>
+          <p> 
+          Presenting the minds behind JOE-DAN Gold Technology Unlimited. A unified team of experts who are passionately driven by the concept of smart solutions, bringing new technological ideas for the world at large. they ensure that comfort and satisfaction go hand-in-hand </p>
         </div>
 
         <div className='founder'>

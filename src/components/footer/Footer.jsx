@@ -11,7 +11,7 @@ function Footer() {
 
                 <div className="logo box">
                     
-                    <div className='content'>
+                    <div className='contentz'>
                         <img id='logo' src={logo} alt="logo" />
                     </div>
                 </div>
@@ -53,7 +53,7 @@ function Footer() {
                             </Link>
 
                             <Link to ='/ourservices'>
-                                <li>E-ticketing agent for entertainment and sports. </li>
+                                <li>E-ticketing agency for entertainment and sports. </li>
                             </Link>
 
                             <Link to ='/ourservices'>
@@ -110,8 +110,14 @@ function Footer() {
 
                     <div className='footer-right-bottom'>
                         <ul>
-                            <li>Privacy Policy</li>
-                            <li>Terms & Condition </li>
+
+                            <Link to='/faq' className='contentt'>  
+                                <li>Privacy Policy</li>
+                            </Link>
+
+                            <Link to='/termsandconditions' className='contentt'>  
+                                <li>Terms and Condition</li>
+                            </Link>
                             
                         </ul>
                     </div>    

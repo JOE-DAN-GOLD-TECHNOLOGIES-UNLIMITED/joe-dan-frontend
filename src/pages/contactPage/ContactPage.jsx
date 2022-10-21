@@ -34,7 +34,7 @@ function ContactPage() {
             </div>
 
             <div className='know-us-better'>
-                <h1>Would you like to get to know us better ?</h1>
+                <h1>Would you like to know us better ?</h1>
             </div>
 
             <div className='phone-email-address'>
@@ -50,10 +50,14 @@ function ContactPage() {
                     <img src={email} alt="email" />
                     <div className='ph-em-ad'>
                         <h2>Email Id</h2>
-                        <p>achilihudaniel53@gmail.com or 
-                        <br /> Ukagajosephchibuikem@gmail.com</p>
-                    </div>
-                </div>
+                        <p>  
+                            <a href="mailto:achilihudaniel53@gmail.com">achilihudaniel53@gmail.com</a>
+                            <br />
+                            <a href="mailto:Ukagajosephchibuikem@gmail.com">Ukagajosephchibuikem@gmail.com</a>
+                        </p>
+                   </div>
+  
+                </div>                      
 
                 <div className='address-id'>
                     <img src={address} alt="address"/>

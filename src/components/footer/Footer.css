@@ -22,10 +22,12 @@ footer *{
     line-height: 1.8rem;
 }
 
+
 .content a{
     color: white;
     text-decoration: none;
 }
+
 .content a:hover{
     color: red;
 }
@@ -46,6 +48,7 @@ footer *{
     height:220px;
     object-fit: cover;
 }
+
 .contact-us .content ul li{
     cursor: initial;
 }
@@ -57,7 +60,6 @@ footer *{
 .box .content{
     margin: 20px 0 0 0;
     line-height: 35px;
-    /* position: relative; */
 }
 
 #address{
@@ -80,32 +82,49 @@ footer *{
     gap: 10px;
 }
 
+.footer-right-bottom a{
+    color: black;
+    text-decoration: none;
+}
+.footer-right-bottom  a:hover{
+    color: red;
+}
+
 
 @media screen and (max-width: 900px) {
-  footer{
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-  }
+    footer{
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+    }
 
-  .footer-bottom, center{
-    flex-direction: column;
+    .contentz {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ 
+    }
+
+    .footer-bottom, center{
+        flex-direction: column;
     }
     
-  .main-content{
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  .main-content .box{
-    margin: 5px 0;
-  }
+    .main-content{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 
-  .footer-bottom, center{
-    display: grid; 
+    .main-content .box{
+        margin: 5px 0;
+    }
+
+    .footer-bottom, center{
+        display: grid; 
+    }
+
+
 }
 
-
-}
 @media(min-width: 1280px){
     .resize-max{
         max-width: 1300px;
