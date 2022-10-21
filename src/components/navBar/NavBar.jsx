@@ -6,12 +6,8 @@ import logo from "../../assets/images/logo.png";
 import menu from "../../assets/images/menu.png";
 import email from '../../assets/images/email.png'
 import phone from '../../assets/images/phone.png'
-
-
-
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
-
 
 
 // To toggle and make navbar show menu
@@ -57,27 +53,25 @@ export default function NavBar({ currentPage }) {
     return null;
   }
   
-
-
+  
   return (
     <div className= {show ? 'opacity' : ''}>
       <div className='top-margin'></div>
       <nav className={navbar ? 'nav-bar active' : 'nav-bar'}>
 
         <div className='contact-details-container'>
-          <marquee behavior="100" direction="right">
             <div className='m-phone'>
               <img src={phone} alt="phone" style={{width:'30px', height:'25px'}} />
-              <p>+234 09037231624 or  +234 8115636432 </p>
-            </div> 
-          </marquee>
+              <p>+234 09037231624 </p>
+              <p className='opt2'> or +234 8115636432 </p>
+            </div>
 
-          <marquee behavior="" direction="left">
             <div className='m-email'>
               <img src={email} alt="phone" style={{width:'30px', height:'25px'}}/>
-              <p> achilihudaniel53@gmail or Ukagajosephchibuikem@gmail.com</p> 
+              <p className='opt2'> achilihudaniel53@gmail or</p>
+              <p> Ukagajosephchibuikem@gmail.com</p> 
             </div>
-          </marquee>
+
 
         </div>
        

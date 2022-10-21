@@ -101,6 +101,11 @@
 
 
 @media screen and (max-width: 1000px){
+
+    .opt2{
+        display: none;
+    }
+    
     .j-d-navbar{
         align-items: center;
     }
