@@ -40,7 +40,7 @@ footer *{
 }
 
 .box h3{
-    color: #8f2436;
+    color: #0099fffb;
 }
 
 #logo{
@@ -66,7 +66,7 @@ footer *{
     line-height: 22px;
 }
 .footer-bottom, center{
-    padding: 10px;
+    padding: 15px;
     font-size: 0.9rem;
     letter-spacing: 1px;
     background-color: rgba(18, 114, 239, 0.786);
@@ -127,7 +127,7 @@ footer *{
 
 @media(min-width: 1280px){
     .resize-max{
-        max-width: 1300px;
+        width: 90%;
         margin: 0 auto;
     }
 }

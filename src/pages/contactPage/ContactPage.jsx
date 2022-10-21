@@ -51,9 +51,7 @@ function ContactPage() {
                     <div className='ph-em-ad'>
                         <h2>Email Id</h2>
                         <p>  
-                            <a href="mailto:achilihudaniel53@gmail.com">achilihudaniel53@gmail.com</a>
-                            <br />
-                            <a href="mailto:Ukagajosephchibuikem@gmail.com">Ukagajosephchibuikem@gmail.com</a>
+                            <a href="joedangoldtech@gmail.com ">joedangoldtech@gmail.com </a>
                         </p>
                    </div>
   

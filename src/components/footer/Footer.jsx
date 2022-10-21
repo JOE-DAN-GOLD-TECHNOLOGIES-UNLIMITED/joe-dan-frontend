@@ -87,13 +87,13 @@ function Footer() {
 
                             <li>
                                 <h3>E-mail: </h3>
-                                <p> achilihudaniel53@gmail.com  or  Ukagajosephchibuikem@gmail.com </p>
+                                <p> joedangoldtech@gmail.com </p>
                             </li>
                             
 
                             <li>
                                 <h3>Address: </h3>
-                                <p> Federal Capital Territory ,  Abuja ,  Nigeria </p> 
+                                <p> Federal Capital Territory , <br /> Abuja ,  Nigeria </p> 
                             </li>
                         </ul>              
                     </div>

@@ -2,28 +2,55 @@
     {
         "_id": 1,
         "img":"4.jpg",
-        "name": "Oluwakeshinro",
-        "position": "Director"
+        "name": "ACHILIHU DANIEL U.",
+        "position": "CHAIRMAN"
     },
     {
         "_id": 2,
-        "img": "1.jpg",
-        "name": "Uchekeshinro",
-        "position": "CEO"
+        "img":"3.jpg",
+        "name": "ACHILIHU DANIEL U.",
+        "position": "OPERATING OFFICER"
     },
     {
         "_id": 3,
         "img":"3.jpg",
-        "name": "Danielkeshinro",
-        "position": "Manager"
+        "name": "ACHILIHU DANIEL U.",
+        "position": "FINANCIAL OFFICER"
     },
     
     {
         "_id": 4,
         "img":"4.jpg",
-        "name": "Achilihukeshinro",
-        "position": "Asst. Manager"
-    }
+        "name": "ACHILIHU DANIEL U.",
+        "position": " PRODUCT OFFICER"
+    },
     
+    {
+        "_id": 5,
+        "img":"4.jpg",
+        "name": "ACHILIHU DANIEL U.",
+        "position": " MARKETING OFFICER"
+    },
+    
+    {
+        "_id": 6,
+        "img":"4.jpg",
+        "name": "ACHILIHU DANIEL U.",
+        "position": "LEGAL OFFICER"
+    },
+    
+    {
+        "_id": 7,
+        "img":"4.jpg",
+        "name": "ACHILIHU DANIEL U.",
+        "position": "DIRECTOR"
+    },
+    
+    {
+        "_id": 8,
+        "img":"4.jpg",
+        "name": "ACHILIHU DANIEL U.",
+        "position": "PROJECT MANAGER"
+    }
  
 ]

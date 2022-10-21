@@ -68,8 +68,7 @@ export default function NavBar({ currentPage }) {
 
             <div className='m-email'>
               <img src={email} alt="phone" style={{width:'30px', height:'25px'}}/>
-              <p className='opt2'> achilihudaniel53@gmail or</p>
-              <p> Ukagajosephchibuikem@gmail.com</p> 
+              <p>joedangoldtech@gmail.com </p> 
             </div>
 
 
@@ -115,16 +114,15 @@ export default function NavBar({ currentPage }) {
             <div className="links-section">
               <img src={menu} alt="menu" className='menu' onClick={shower} />
               <div className={!show ? 'links show' : 'links'}>
-                  <p onClick={shower} style = {{cursor: 'pointer'}} className = 'exit'><MdCancel size = {55}/></p> 
-                
-                  <p>
-
-                  <Link to='/' className='link' style={page("home")} > <p>Home</p></Link> 
-                  <Link to='/ourservices' className='link' style={page("home")} > <p>Services</p></Link> 
-                  <Link to='/contactus' className='link' style={page("home")} > <p>Contact</p></Link> 
-                  <Link to='/faq' className='link' style={page("home")} > <p>FAQ</p></Link> 
-                  <Link to='/termsandconditions' className='link' style={page("home")} > <p>Terms and Conditions</p></Link> 
-                  </p>
+                <p onClick={shower} style = {{cursor: 'pointer'}} className = 'exit'><MdCancel size = {55}/></p> 
+              
+                <p>
+                  <Link to='/' className='link' style={page("Home")} > <p>Home</p></Link> 
+                  <Link to='/ourservices' className='link' style={page("Services")} > <p>Services</p></Link> 
+                  <Link to='/contactus' className='link' style={page("Contact")} > <p>Contact</p></Link> 
+                  <Link to='/faq' className='link' style={page("FAQ")} > <p>FAQ</p></Link> 
+                  <Link to='/termsandconditions' className='link' style={page("TermsandConditions")} > <p>Terms and Conditions</p></Link> 
+                </p>
                 
               </div>
             </div>

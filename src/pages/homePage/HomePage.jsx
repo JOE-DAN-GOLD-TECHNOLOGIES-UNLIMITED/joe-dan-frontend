@@ -92,7 +92,7 @@ function HomePage() {
             </div>
 
             <h3>UKAGA JOSEPH C.</h3>
-            <p>FOUNDER</p>
+            <p>CE0 / FOUNDER</p>
           </div>
 
           <div className='founder-details-box'>
@@ -100,7 +100,7 @@ function HomePage() {
               <img src={Daniel} alt="" />
             </div>
             <h3>ACHILIHU DANIEL U.</h3>
-            <p>CO-FOUNDER</p>
+            <p>CTO / CO-FOUNDER</p>
           </div>
 
         
@@ -122,7 +122,7 @@ function HomePage() {
                   <div className='team-details-image'>
                     <img src={Daniel} alt={founder.name} />
                   </div>
-                  <p className='team-name'>{founder.name}</p>
+                  <h3 className='team-name'>{founder.name}</h3>
                   <p className="team-position">{founder.position}</p>
             
                   <CustomButton content="View Details" />
