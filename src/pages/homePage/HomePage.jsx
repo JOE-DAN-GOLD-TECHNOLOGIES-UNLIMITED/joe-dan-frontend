@@ -75,6 +75,16 @@ function HomePage() {
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus nisi dignissimos corporis. Repellat eius dolores enim ad in natus? Voluptatibus quidem recusandae minus nulla illo architecto consequatur cupiditate consectetur.</li>
           </ol>
         </div>
+        <div className='mission'>
+          <h1> Our Vision</h1>
+          <ol>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus nisi dignissimos corporis. Repellat eius dolores enim ad in natus? Voluptatibus quidem recusandae minus nulla illo architecto consequatur cupiditate consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus nisi dignissimos corporis. Repellat eius dolores enim ad in natus? Voluptatibus quidem recusandae minus nulla illo architecto consequatur cupiditate consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus nisi dignissimos corporis. Repellat eius dolores enim ad in natus? Voluptatibus quidem recusandae minus nulla illo architecto consequatur cupiditate consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus nisi dignissimos corporis. Repellat eius dolores enim ad in natus? Voluptatibus quidem recusandae minus nulla illo architecto consequatur cupiditate consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus nisi dignissimos corporis. Repellat eius dolores enim ad in natus? Voluptatibus quidem recusandae minus nulla illo architecto consequatur cupiditate consectetur.</li>
+          </ol>
+        </div>
 
         <div className='our-awesome-team'>
           <div className='our-awesome-team-header'>
