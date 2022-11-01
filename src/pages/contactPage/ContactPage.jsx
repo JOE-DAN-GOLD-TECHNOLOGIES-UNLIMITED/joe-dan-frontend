@@ -23,7 +23,7 @@ function ContactPage() {
 
     return (
 
-        <div className='contact-page' >
+        <div className='contact-page' id='contact-pg'>
 
             <div>
                 <NavBar />

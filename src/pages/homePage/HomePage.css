@@ -68,6 +68,11 @@
     padding: 1px 4%;
 }
 
+.about-us-page a{
+    text-decoration: none;
+    color: black;
+}
+
 .mission-vision{
     display: flex;
     justify-content: space-between;
@@ -105,19 +110,19 @@
     height: 120px;
 }
 
-.mission{
+.mission, .vision{
     box-shadow: 0px 4px 31px 0px #cacacc52;
     padding: 2px 2%;
     margin-bottom: 50px;
     
 }
 
-.mission h1{
+.mission h1, .vision h1{
     color: blue;
     margin-bottom: 50px;
 }
 
-.mission li{
+.mission li, .vision li{
     margin-bottom: 20px;
     list-style-type:disc;
 }

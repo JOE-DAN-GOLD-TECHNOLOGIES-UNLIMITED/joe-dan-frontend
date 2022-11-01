@@ -1,5 +1,6 @@
 import React from 'react'
 import './HomePage.css'
+import { Link } from "react-router-dom";
 import NavBar from '../../components/navBar/NavBar';
 import Footer from '../../components/footer/Footer';
 import CustomButton from '../../components/custombutton/CustomButton';
@@ -26,9 +27,17 @@ function HomePage() {
 
           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam doloribus magni minima ab inventore repellat at blanditiis. Tempore nesciunt iusto eius ex, delectus corporis ipsa possimus accusamus sed laudantium? </p>
 
+          
           <div className ="home-btn">
-            <CustomButton content="Learn More" />
-            <CustomButton content="Contact Us" />
+          
+            <Link to='/ourservices' pathname='/our-services'>
+              <CustomButton content="Learn More" />
+            </Link>
+
+            <Link to='/contactus' pathname='/contactus'>
+               <CustomButton content="Contact Us" />
+             
+            </Link>
           </div>
 
         </div>
@@ -50,33 +59,23 @@ function HomePage() {
 
           <div className='our-mission'>
             <img src={target} alt="" />
-            <p>Our Mission</p>
+            <a href="#mission-pg"> <p>Our Mission</p></a>
           </div>
 
-          <div className='world-of-JDG'>
+          <div className='world-of-JDG' >
             <img src={logo} alt="" />
-            <p>World of JDG</p>
+            <a href="#team-pg"><p>Team of JDG</p></a>
           </div>
 
           <div className='our-vision'>
             <img src={eye} alt="" />
-            <p>Our Vision</p>
+            <a href="#vision-pg"><p>Our Vision</p></a>
           </div>
 
         </div>
 
         <div className='mission'>
-          <h1> Our Mission</h1>
-          <ol>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus nisi dignissimos corporis. Repellat eius dolores enim ad in natus? Voluptatibus quidem recusandae minus nulla illo architecto consequatur cupiditate consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus nisi dignissimos corporis. Repellat eius dolores enim ad in natus? Voluptatibus quidem recusandae minus nulla illo architecto consequatur cupiditate consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus nisi dignissimos corporis. Repellat eius dolores enim ad in natus? Voluptatibus quidem recusandae minus nulla illo architecto consequatur cupiditate consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus nisi dignissimos corporis. Repellat eius dolores enim ad in natus? Voluptatibus quidem recusandae minus nulla illo architecto consequatur cupiditate consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus nisi dignissimos corporis. Repellat eius dolores enim ad in natus? Voluptatibus quidem recusandae minus nulla illo architecto consequatur cupiditate consectetur.</li>
-          </ol>
-        </div>
-        <div className='mission'>
-          <h1> Our Vision</h1>
+          <h1 id='vision-pg'> Our Mission</h1>
           <ol>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus nisi dignissimos corporis. Repellat eius dolores enim ad in natus? Voluptatibus quidem recusandae minus nulla illo architecto consequatur cupiditate consectetur.</li>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus nisi dignissimos corporis. Repellat eius dolores enim ad in natus? Voluptatibus quidem recusandae minus nulla illo architecto consequatur cupiditate consectetur.</li>
@@ -86,9 +85,20 @@ function HomePage() {
           </ol>
         </div>
 
-        <div className='our-awesome-team'>
+        <div className='vision' >
+          <h1 id='team-pg'> Our Vision</h1>
+          <ol>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus nisi dignissimos corporis. Repellat eius dolores enim ad in natus? Voluptatibus quidem recusandae minus nulla illo architecto consequatur cupiditate consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus nisi dignissimos corporis. Repellat eius dolores enim ad in natus? Voluptatibus quidem recusandae minus nulla illo architecto consequatur cupiditate consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus nisi dignissimos corporis. Repellat eius dolores enim ad in natus? Voluptatibus quidem recusandae minus nulla illo architecto consequatur cupiditate consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus nisi dignissimos corporis. Repellat eius dolores enim ad in natus? Voluptatibus quidem recusandae minus nulla illo architecto consequatur cupiditate consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus nisi dignissimos corporis. Repellat eius dolores enim ad in natus? Voluptatibus quidem recusandae minus nulla illo architecto consequatur cupiditate consectetur.</li>
+          </ol>
+        </div>
+
+        <div className='our-awesome-team' >
           <div className='our-awesome-team-header'>
-            <h1>Our Awesome Team</h1>
+            <h1 id='miion-pg'>Our Awesome Team</h1>
           </div>
 
           <p> 
