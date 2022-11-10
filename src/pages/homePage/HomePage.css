@@ -87,6 +87,7 @@
     margin-top: 0;
     text-align: center;
     font-weight: bold;
+    
 }
 
 
@@ -119,12 +120,15 @@
 
 .mission h1, .vision h1{
     color: blue;
-    margin-bottom: 50px;
 }
 
 .mission li, .vision li{
     margin-bottom: 20px;
+    word-spacing: 0.1rem;
+    width: 95%;
+    line-height: 1.4rem;
     list-style-type:disc;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .our-awesome-team{
@@ -139,6 +143,8 @@
 }
 .our-awesome-team p{
     padding: 0 3%;
+    /* line-height: 2rem; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .founder{
@@ -184,6 +190,9 @@
     width: 80%;
     font-size: 1.2rem;
     padding: 20px 2%;
+}
+.founder-voice p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .team-details-container{

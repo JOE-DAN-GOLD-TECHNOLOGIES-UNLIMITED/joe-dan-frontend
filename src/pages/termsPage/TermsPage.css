@@ -20,6 +20,15 @@
     margin-bottom: 50px;
 }
 
+.terms p{
+    margin: 0 auto;
+    padding: 2px 2%;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 
 @media screen and (max-width:1000px) {
     .terms-header{

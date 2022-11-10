@@ -111,10 +111,10 @@ function Footer() {
                     <div className='footer-right-bottom'>
                         <ul>
 
-                            <Link to='/faq' className='contentt'>  
+                            <Link to='/privacy' className='contentt'>  
                                 <li>Privacy Policy</li>
                             </Link>
-
+                            &&
                             <Link to='/termsandconditions' className='contentt'>  
                                 <li>Terms and Condition</li>
                             </Link>
