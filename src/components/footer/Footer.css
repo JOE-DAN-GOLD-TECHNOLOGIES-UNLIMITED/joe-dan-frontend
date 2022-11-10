@@ -30,6 +30,7 @@ footer *{
 
 .content a:hover{
     color: red;
+    transition: 0.5s ease-in-out;
 }
 
 .main-content{
@@ -70,7 +71,6 @@ footer *{
     font-size: 0.9rem;
     letter-spacing: 1px;
     background-color: rgba(18, 114, 239, 0.786);
-    color: black;
     font-weight: bolder;
     display: flex;
     justify-content: space-around;
@@ -88,6 +88,7 @@ footer *{
 }
 .footer-right-bottom  a:hover{
     color: red;
+    transition: 0.5s ease-in-out;
 }
 
 

@@ -99,7 +99,7 @@ function ContactPage() {
             </form>    
 
             <div className='send-message'>
-                <CustomButton id="sm-button" type={'submit'} content='Send Message' style={{ width: '350px', height: '70px', borderRadius: '70px'}} />
+                <CustomButton id="sm-button" type={'submit'} content='Send Message' style={{ width: '300px', height: '70px', borderRadius: '70px'}} />
             </div>
 
             <div>
